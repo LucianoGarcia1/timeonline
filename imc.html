@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--METAS TEGS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="imc online, calcule seu imc. Indice de massa corporal.">
+    <meta name="keywords" content="Hora online, horário de brasília, Calculadora online, Contagem de dias entre datas, Calcular Porcentagem online, Calculadora imc, Indice de massa corporal.">
+    <link rel="shortcut icon" href="assets/img/gear.png" type="image/x-icon">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6MEZD2SEF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M6MEZD2SEF');
+    </script>
+
+    <title>TimeOnline/Imc</title>
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/7a98acb87b.js" crossorigin="anonymous"></script>
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="src/css/imc.css">
+</head>
+<body>  
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html">
+                <h2 class="header__logo__title">TimeOnline</h2>
+            </a>
+        </div>
+
+        <nav class="header__nav">
+
+            <input type="checkbox" id="check">
+		    <label for="check" class="checkbtn">
+		    	<span id="hamburguer"></span>
+		    </label>
+
+            <ul id="menu">
+                <li><a href="calculater.html"><i class="fas fa-arrow-circle-right"></i> Calculadora</a></li>
+                <li><a href="contagem.html"><i class="fas fa-arrow-circle-right"></i> Contagem Regressiva</a></li>
+                <li><a href="imc.html"><i class="fas fa-arrow-circle-right"></i> Indice de massa corporal</a></li>
+                <li><a href="porcentagem.html"><i class="fas fa-arrow-circle-right"></i> Porcentagem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="time">
+
+        <div class="time__viewl">
+            <a href="#short"><i class="fas fa-share"></i></a>
+        </div>
+
+        <div class="calculadora">
+            <h2 id="day">Indice de massa corporal</h2>
+        </div>
+
+        <form class="calculater">
+            <div class="calculater__inputs">
+                <div class="inp">
+                    <label for="oneinput">Altura <span> (ex.: 1,70)
+                    </span></label>
+                    <input type="number" id="oneinput" required>
+                </div>
+
+                <div class="inp">
+                    <label for="twoinput">Peso <span>
+                        (ex.: 64,2)
+                    </span></label>
+                    <input type="number" id="twoinput" required>
+                </div>
+
+                <div class="btns">
+                    <button type="button" onclick="calcular()">Calcular</button>
+                </div>
+            </div>
+        </form>
+        <div style="padding: 20px;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8819310187808298"
+         crossorigin="anonymous"></script>
+            <!-- anuncio time -->
+            <ins class="adsbygoogle"
+            style="display:block;"
+            data-ad-client="ca-pub-8819310187808298"
+            data-ad-slot="3314705734"
+            data-adtest="on"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="tutorial">
+            <h3>Como usar o site TimeOnline</h3>
+            <hr>
+
+            <p>
+                TimeOnline um site com Diversos Recursos como Calculadora Online, Porcentagem, Indice de massa corporal, e Contagem de Dias entre Datas, Para utilizar o site basta ir na Navegação e clicar nos links com cada nome citado abaixo ou no header.
+            </p>
+
+            <nav class="tutorial__nav">
+                <ul class="tutorial__nav__citados">
+                    <li><a href="calculater.html">Calculadora</a></li>
+                    <li><a href="contagem.html">Contagem</a></li>
+                    <li><a href="imc.html">Indice de Massa corporal</a></li>
+                    <li><a href="porcentagem.html">Porcentagem</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div style="padding: 20px;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8819310187808298"
+         crossorigin="anonymous"></script>
+            <!-- anuncio time -->
+            <ins class="adsbygoogle"
+            style="display:block;"
+            data-ad-client="ca-pub-8819310187808298"
+            data-ad-slot="3314705734"
+            data-adtest="on"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="time__link" id="short">
+            <input type="url" id="link">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inline">
+            <h3>TimeOnline</h3>
+
+            <p>Desenvolvida com Carinho por Luciano Garcia</p>
+
+        </div>
+        <ul>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="src/js/imc.js"></script>
+    <script src="src/js/link.js"></script>
+</body>
+</html>
